@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+}
+
+input.focus{
+    border: 2px solid #3333;
+}
+
+button {
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(46, 88, 74);
+}
+
+button:hover{
+    background-color: #fff;
+    color: rgb(46, 88, 74);
+    cursor: pointer;
+}
+
+button:active{
+    border: 2px solid #e61e1ec7;
+}
